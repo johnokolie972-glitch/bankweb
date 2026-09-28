@@ -1,0 +1,69 @@
+.anim{
+    width: 200px;px ;
+    height: 200px;
+    background-color: blueviolet;
+    animation-name: colorchange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorchange{
+    0%{background-color:red;}
+    50%{background-color:blue;}
+    100%{background-color:red;}
+}
+.anim1{
+    width: 200px;px ;
+    height: 200px;
+    background-color: blueviolet;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-top: 50px;
+    position: relative;
+}
+@keyframes move {
+    0%{left:0; background-color: blue;}
+    50%{left:50%; background-color: chocolate;}
+    100%{left:100%; background-color: darkblue;}
+    
+}
+.anim2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-top: 100px;
+    animation: spin 3s linear infinite; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+@keyframes spin{
+    0%{transform: rotate(0deg); left: 0%; background-color: red;}
+    100%{transform: rotate(360deg); left: 100%; background-color:  blue;}
+
+}
+h1{
+    margin-top: 60px;
+    font-size: 50px;
+    text-align: center;
+    opacity: 0;
+    animation: fade 5s ease-in-out forwards infinite;
+}
+@keyframes fade{
+    0%{opacity: 0; transform: translate(40px);}
+    100%{opacity: 1; transform: translate(0);}
+}
+h2{
+    white-space: nowrap;
+    overflow:hidden;
+    width:0;
+    animation: typing 4s steps(30) 1s forwards, blink 0.7s step-end infinite;
+}
+@keyframes typing{
+    from{width:0;}
+    to{width: 100%;}
+}
+@keyframes blink{
+    50%{border-color: transparent;}
+}

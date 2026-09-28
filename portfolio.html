@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Okolie Chukwuebuka John — Software Developer</title>
+<link rel="stylesheet" href="style2.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <nav class="nav">
+      <a href="#top">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#top" class="mark">SPICY</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <p class="hero-label">Software Developer</p>
+        <h1 class="hero-name">Okolie<br>Chukwuebuka<br>John</h1>
+        <p class="hero-copy">
+          I am a dedicated Software Engineer specializing in full-stack application development. I enjoy crafting responsive web solutions using modern technologies like Next.js, React, Tailwind CSS, Node.js, python while also applying DevOps practices, continuously aiming to deliver high-quality, comprehensive, user-centric software solutions.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">See my work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <!-- Replace profile.jpg with your own photo file, same folder as this html -->
+        <img src="images/portfolioimage.jpeg" alt="Okolie Chukwuebuka John" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="photo-fallback">OJ</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="wrap about-inner">
+      <div class="about-index">01 / About</div>
+      <div class="about-body">
+        <p class="about-lead">
+          I'm a developer who cares as much about how a project is built as
+          what it does once it ships.
+        </p>
+        <p>
+          My work spans frontend interfaces, backend APIs, and the databases
+          that hold everything together. I like projects where I can own a
+          problem from the first sketch to the last deploy — figuring out the
+          data model, writing the interface, and cleaning up the rough edges
+          before anyone else sees them.
+        </p>
+        <p>
+          Outside of client work, I spend time reading other people's code,
+          rebuilding small tools I use daily, and trying to get a little
+          faster at the parts of the job that used to slow me down.
+        </p>
+        <ul class="skill-list">
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>HTML &amp; CSS</li>
+          <li>SQL</li>
+          <li>Git</li>
+        </ul>
+        <div class="about-contact-line">
+          <span>Johnokolie972@gmail.com</span>
+          <span>+234 81 127 32845</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="about-index">02 / Services</div>
+        <h2>What I do</h2>
+        <p class="section-sub">A few of the ways I can help with your next project.</p>
+      </div>
+
+      <div class="service-grid">
+        <div class="service-card">
+          <h3>Web Development</h3>
+          <p>Building responsive, fast websites and web apps from a design or a rough idea.</p>
+        </div>
+        <div class="service-card">
+          <h3>API &amp; Backend</h3>
+          <p>Designing databases and building the server-side logic that powers an application.</p>
+        </div>
+        <div class="service-card">
+          <h3>Maintenance &amp; Fixes</h3>
+          <p>Debugging, updating, and improving performance on projects already in production.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="about-index">03 / Projects</div>
+        <h2>My Portfolio</h2>
+        <p class="section-sub">Explore my projects and see the work I've created using modern web technologies.</p>
+      </div>
+
+      <div class="filter-row">
+        <button class="filter-btn is-active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="webapp">Web Apps</button>
+        <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+        <button class="filter-btn" data-filter="dashboard">Dashboards</button>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card" data-category="webapp">
+          <div class="project-thumb" style="background:#2B2620;">
+            <span class="live-badge">Live</span>
+          </div>
+          <div class="project-body">
+            <h3>Project Name One</h3>
+            <p>A short description of what this project does and the problem it solves for its users.</p>
+            <div class="tag-row">
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+            </div>
+            <a href="#" class="project-link">Visit Site →</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="webapp">
+          <div class="project-thumb" style="background:#22282A;">
+            <span class="live-badge">Live</span>
+          </div>
+          <div class="project-body">
+            <h3>Project Name Two</h3>
+            <p>A short description of what this project does and the problem it solves for its users.</p>
+            <div class="tag-row">
+              <span class="tag">HTML/CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <a href="#" class="project-link">Visit Site →</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="ecommerce">
+          <div class="project-thumb" style="background:#2A2321;">
+            <span class="live-badge">Live</span>
+          </div>
+          <div class="project-body">
+            <h3>Project Name Three</h3>
+            <p>A short description of what this project does and the problem it solves for its users.</p>
+            <div class="tag-row">
+              <span class="tag">SQL</span>
+              <span class="tag">Express</span>
+            </div>
+            <a href="#" class="project-link">Visit Site →</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="dashboard">
+          <div class="project-thumb" style="background:#212623;">
+            <span class="live-badge">Live</span>
+          </div>
+          <div class="project-body">
+            <h3>Project Name Four</h3>
+            <p>A short description of what this project does and the problem it solves for its users.</p>
+            <div class="tag-row">
+              <span class="tag">React</span>
+              <span class="tag">API</span>
+            </div>
+            <a href="#" class="project-link">Visit Site →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap contact-inner">
+      <div class="about-index">04 / Contact</div>
+      <h2>Let's work together</h2>
+      <p class="contact-copy">
+        Have a project in mind, or just want to talk shop? My inbox is open.
+      </p>
+      <a href="mailto:Johnokolie972@gmail.com" class="contact-email">Johnokolie972@gmail.com</a>
+      <p class="contact-phone">+234 000 000 0000</p>
+
+      <div class="social-row">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+
+    <div class="footer-brand">
+      <span class="mark">OCJ</span>
+      <p>Okolie Chukwuebuka John — Software Developer. I build web
+        applications across frontend, backend, and everything in between.</p>
+      <a href="#contact" class="btn btn-primary btn-small">Start a project</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <a href="#top">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="mailto:Johnokolie972@gmail.com">Johnokolie972@gmail.com</a>
+      <a href="tel:+2340000000000">+234 000 000 0000</a>
+      <span class="footer-location">Your City, Nigeria</span>
+    </div>
+
+    <div class="footer-col">
+      <h4>Social</h4>
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Twitter</a>
+    </div>
+
+  </div>
+  <div class="wrap footer-bottom">
+    <span>Designed and built by Okolie Chukwuebuka John</span>
+    <span>&copy; 2026 All rights reserved.</span>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.nav');
+  toggle.addEventListener('click', () => {
+    const isOpen = nav.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', isOpen);
+    toggle.classList.toggle('is-open');
+  });
+  nav.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      nav.classList.remove('is-open');
+      toggle.classList.remove('is-open');
+      toggle.setAttribute('aria-expanded', false);
+    });
+  });
+
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const cards = document.querySelectorAll('.project-card');
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('is-active'));
+      btn.classList.add('is-active');
+      const filter = btn.dataset.filter;
+      cards.forEach(card => {
+        const match = filter === 'all' || card.dataset.category === filter;
+        card.style.display = match ? '' : 'none';
+      });
+    });
+  });
+</script>
+
+</body>
+</html>

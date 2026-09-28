@@ -1,0 +1,50 @@
+li{
+    color: rgb(red, green, blue)
+}
+.john{
+    color: blueviolet;
+}
+.spicy{
+    font-size: 50px;
+    margin-bottom: 150px;
+}
+.spicy2{
+    background-color: brown;
+    color: blanchedalmond;
+    width: 250px;
+    height: 300px;
+    padding:  30px 50px;
+    border: 10px solid black;
+    border-radius: 30px;
+position: sticky;
+top: 0;
+}
+.positioning{
+
+ background-color: gray;}
+ .parents{
+    background-color: aqua;
+    height: 30px;}
+    .child{
+    background-color: brown;
+    height: 150px;}
+    .sel h2{
+        color: blueviolet;
+        font-size: 30;
+}
+.sel h2:hover{
+    color: brown;
+}
+.sel h1:nth-child(1) {
+    color: brown;
+}    
+.sel h1:nth-child(4){
+    color: black;
+}
+.dis{
+    font-size: 50px;
+    
+    gap: 50px;
+
+}    
+
